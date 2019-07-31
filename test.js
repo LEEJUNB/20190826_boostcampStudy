@@ -7,7 +7,7 @@
 
 // 함수 표현식
 function printName(firstname) {
-    //console.log("name is " + firstname);
+    //함수 표현식 : 변수값에 함수 표현식을 담아 놓은 것
     var inner = function() { 
         return 'inner!!!';
     }
